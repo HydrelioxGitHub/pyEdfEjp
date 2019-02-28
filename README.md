@@ -1,4 +1,11 @@
 PyEdfEjp
+
+
+[![Build Status](https://travis-ci.org/HydrelioxGitHub/pyEdfEjp.svg?branch=master)](https://travis-ci.org/HydrelioxGitHub/pyEdfEjp)
+[![GitHub release](https://img.shields.io/github/release/HydrelioxGitHub/pyEdfEjp.svg)](https://github.com/HydrelioxGitHub/pyEdfEjp/releases/)
+[![PyPI version pyEdfEjP](https://badge.fury.io/py/pyEdfEjp.svg)](https://pypi.org/project/pyEdfEjp/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 ===================
 
 ![E.D.F EJP](https://selectra.info/sites/default/files/styles/global_guide/public/field/image/edf_ejp.png?itok=LBBvT2Pu)
@@ -31,3 +38,5 @@ Open your favorite python3 console
   - PR are welcome
   - Advices on library structure are welcome too, this is one of my first python library and I'm still a noob on Python code
   - If you want to contact me : <i class="icon-twitter"></i> @hydreliox on Twitter
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)

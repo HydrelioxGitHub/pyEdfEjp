@@ -59,7 +59,8 @@ class EdfEjp:
         self.total_days = int(data[self.JSON_ARGUMENT_TOTAL_DAYS.format(self.zone.lower())])
 
     def update(self):
-        data = self._get_json_from_request(self.URL.format("2019-02-27"))
+        today = datetime.now()
+        data = self._get_json_from_request(self.URL.format(today.strftime('%Y-%m-%d') ))
         if data[self.JSON_TODAY][self.JSON_PREFIX_ZONE + self.zone] == self.JSON_IS_EJP:
             self.today = True
         if data[self.JSON_TODAY][self.JSON_PREFIX_ZONE + self.zone] == self.JSON_IS_NOT_EJP:
